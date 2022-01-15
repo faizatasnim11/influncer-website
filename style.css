@@ -90,7 +90,8 @@ nav{
     margin-top: 20px;
 }  
 .collection{
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     text-align: center;
 }
 /* items styles */
@@ -98,7 +99,13 @@ nav{
 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    max-width: 1000px;
+}
+.item{
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+    margin: 40px;
+    
 }
 .items.item-banner img{
     width: 329px;
@@ -107,7 +114,7 @@ nav{
 .item-info{
     display: flex;
     align-items: center; 
-    justify-content: space-between;
+    
 }
 .fa-star{
     font-size: 16px;
@@ -125,5 +132,84 @@ nav{
     color: #787885;
     font-size: 14px;
 }
+.see-more{
+    color: #E02C6D;
+    font-size: 24px;
+    padding-left: 1000px;
+}
+.flex-con{
+    display: flex; 
+}
+/* feedback part */
+.half-width3 img{
+    width: 100%;
+    padding-left: 20%;
+}
+
+.half-width3{
+   
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+    
+    
+} 
+.primary-button2{
+    outline: 0;
+    border: 0;
+    padding: 10px 15px;
+    background-color: rgb(240, 77, 110);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    top: 0;
+}
+.primary-button2:active{
+    top: 15px;
+    box-shadow: 0 2px 0 #a5075e;
+
+}
+.feedback{
+    color: #787885;
+    margin-top: 20px;
+}
+/* footer style */
+.footer-content{
+    color:white; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+footer{
+    background-color: rgb(22, 2, 54);
+    font-size: .8rem;
+    font-weight: 200;
+    line-height: 2rem;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+
+}
+    
+
 
 

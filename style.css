@@ -14,7 +14,8 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
+    font-weight: 700;
 }
 .primary-button{
     outline: 0;
@@ -45,7 +46,7 @@ nav{
 }
 .navigation li{
     list-style: none;
-    margin: 20px;
+    margin: 10px;
 }
 .navigation li a{
     text-decoration: none;
@@ -70,10 +71,59 @@ nav{
     font-size: 16px;
     line-height: 1.5;
     margin: 20px 0;
+}
+.banner-right img{
+  width: 60%; 
+  margin-left: 150px;
+}
+.banner-right:hover img{
+    transform: scale(1.2);
+}
+.logo-container {
+    height: 100px;
+    border: 2px solid rgb(209, 201, 201);
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px; 
+    margin-top: 20px;
+}  
+.collection{
+    margin-top: 50px;
+    text-align: center;
+}
+/* items styles */
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
 }
-.banner-left img{
-  width: 100%;   
+.items.item-banner img{
+    width: 329px;
+    height: 476px;  
+}
+.item-info{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 16px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star-half-alt.empty{
+    color: #FB8200;
+}
+.rating{
+    padding-left:30px;
+}
+.item-dis{
+    color: #787885;
+    font-size: 14px;
 }
 
-    
+
